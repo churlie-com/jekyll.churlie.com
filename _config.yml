@@ -1,8 +1,8 @@
-title: New Jekyll site
+title: Churlie
 email: peter@forret.com
-description: Because it's static, baby
+description: Manage your web sites
 baseurl: "/"
-url: ""
+url: "https://jekyll.churlie.com"
 twitter_username: pforret
 github_username:  pforret
 
@@ -12,8 +12,8 @@ permalink:        pretty
 paginate:         10
 
 author:
-  name:           'Peter Forret'
-  url:            https://twitter.com/pforret
+  name: 'Peter Forret'
+  url: https://twitter.com/pforret
 
 # Build settings
 plugins:
