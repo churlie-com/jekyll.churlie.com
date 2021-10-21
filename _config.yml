@@ -24,3 +24,12 @@ plugins:
 exclude:
   - hyde
   - .idea/
+
+collections:
+  categories:
+    output: true
+    permalink: /category
+
+  tags:
+    output: true
+    permalink: /tag
