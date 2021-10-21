@@ -14,6 +14,6 @@ What information does my IP address, or the IP address of my web server, give aw
 {%
 include img.html
 src="/public/img/unsplash.network-cable.jpg"
-description="IP address"
+description="What does my IP address say?"
 %}
 

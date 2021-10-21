@@ -16,6 +16,6 @@ What information does my web server, or its headers, tell us?
 {%
 include img.html
 src="/public/img/unsplash.server.jpg"
-description="IP address"
+description="What does my web server say?"
 %}
 
