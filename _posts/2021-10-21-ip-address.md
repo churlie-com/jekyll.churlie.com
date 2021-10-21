@@ -1,5 +1,5 @@
 ---
-title: What can you know about an IP address?
+title: What can an IP address tell you?
 layout: post
 image: /public/img/unsplash.network.jpg
 categories:
