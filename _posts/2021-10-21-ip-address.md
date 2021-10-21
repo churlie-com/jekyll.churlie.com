@@ -48,6 +48,8 @@ proxies and [reverse proxies](https://en.wikipedia.org/wiki/Reverse_proxy), but 
 
 Now, if you know that IP address of a web server, what can you tell from that, without even connecting to it?
 
+## IP lookup
+
 You could do a reverse DNS lookup:
 
     ❯ nslookup 142.251.36.37
@@ -57,10 +59,12 @@ You could do a reverse DNS lookup:
 Because of the predictable way Google names its servers, you could deduce that the server in question is located in Amsterdam,
 which makes sense because it's close to where I am (Brussels, BE). 
 Not every hosting company will have the same logic of server naming.
-E.g. this web site is hosted on Github Pages, and comes from an IP address like 185.199.108.153. 
-A reverse lookup of this address gives `cdn-185-199-108-153.github.com`.
+E.g. this website is hosted on Github Pages, and comes from an IP address like `185.199.108.153`. 
+A reverse lookup of this address gives `cdn-185-199-108-153.github.com`. This makes one none the wiser.
 
-An IP info API like `ipinfo.io` will even tell you more about the location and the owner of the IP address:
+## IP geolocation
+
+An IP info API like `ipinfo.io` will tell you more about the location and the owner of the IP address:
 
     ❯ curl ipinfo.io/142.251.36.37
     {
@@ -75,6 +79,8 @@ An IP info API like `ipinfo.io` will even tell you more about the location and t
     "timezone": "Europe/Amsterdam",
     "readme": "https://ipinfo.io/missingauth"
     }
+
+## IP reputation
 
 An IP Reputation API will tell you what the reputation is of (the company behind) that range of IP addresses.
 
