@@ -1,5 +1,5 @@
 ---
-title: About churlie.com
+title: About
 layout: page
 ---
 
