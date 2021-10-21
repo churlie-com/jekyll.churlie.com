@@ -1,7 +1,7 @@
 ---
 title: What can an IP address tell you?
 layout: post
-image: /public/img/unsplash.network.jpg
+image: /public/img/unsplash.network-cable.jpg
 categories:
    - blog
 tags:
@@ -13,7 +13,7 @@ What information does my IP address, or the IP address of my web server, give aw
 
 {%
 include img.html
-src="/public/img/unsplash.network.jpg"
+src="/public/img/unsplash.network-cable.jpg"
 description="IP address"
 %}
 
