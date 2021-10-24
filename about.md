@@ -3,7 +3,7 @@ title: About
 layout: page
 ---
 
-Churlie Labs is a collaboration between Peter Forret, engineer, software architect and developer, and Ine Dehandschutter, creative & communication strategist, designer & photographer.
+Churlie is a collaboration between Peter Forret, engineer, software architect and developer, and Ine Dehandschutter, creative & communication strategist, designer & photographer.
 
 ## Peter Forret
 

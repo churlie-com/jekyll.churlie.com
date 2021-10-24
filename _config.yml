@@ -1,6 +1,6 @@
 title: Churlie
 email: peter@forret.com
-description: Manage your web sites
+description: Your web projects portfolio
 baseurl: "/"
 url: "https://jekyll.churlie.com"
 twitter_username: pforret
@@ -24,3 +24,12 @@ plugins:
 exclude:
   - hyde
   - .idea/
+
+collections:
+  categories:
+    output: true
+    permalink: /category
+
+  tags:
+    output: true
+    permalink: /tag
