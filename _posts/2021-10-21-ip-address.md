@@ -27,10 +27,13 @@ Let's see what that looks like:
 
 This translates to:
 
-    > what's the IP address for mail.google.com ?
-    < it's the same as for googlemail.l.google.com !
-    > OK, so what's the IP address for googlemail.l.google.com?
-    < it's 142.251.36.37 !
+> what's the IP address for mail.google.com ?
+>
+> it's the same as for googlemail.l.google.com !
+>
+> OK, so what's the IP address for googlemail.l.google.com?
+>
+> it's 142.251.36.37 !
 
 {%
 include img.html
