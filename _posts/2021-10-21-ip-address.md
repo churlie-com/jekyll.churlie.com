@@ -3,7 +3,7 @@ title: What can an IP address tell you?
 layout: post
 image: /public/img/unsplash.network-cable.jpg
 categories:
-   - blog
+   - tech
 tags:
    - info
    - api

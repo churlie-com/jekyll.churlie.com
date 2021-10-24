@@ -3,7 +3,7 @@ title: What can a domain name tell you?
 layout: post
 image: /public/img/unsplash.com.jpg
 categories:
-   - blog
+   - tech
 tags:
    - info
    - api

@@ -3,7 +3,7 @@ title: What can a web server tell you?
 layout: post
 image: /public/img/unsplash.server.jpg
 categories:
-   - blog
+   - tech
 tags:
    - info
    - api
@@ -20,7 +20,7 @@ description="What does my web server say?"
 
 ## TLS security
 
-Your website will most certainly be a `https://` (_secure_) website. This means that there is already whole conversation that happens to agree on the end-to-end encryption that will be used for all the information. This is what that looks like:
+Your website will most certainly be a `https://` (_secure_) website. This means that there is already a whole conversation, just to agree on the end-to-end encryption that will be used from then on. This is what that looks like:
 
 ```
 $ curl -ivk https://mail.google.com
@@ -76,3 +76,4 @@ The rest of that conversation goes like this:
 * the server works with HTTP 2.0, not HTTP 1.1 => it's a modern server
 * the server has content security specifications like `content-security-policy` and `x-xss-protection`, again a sign that it's an up-to-date setup
 * the server type = GSE, which stands for `Google Servlet Engine`, an indication that the website is run by Google (as if you needed more proof)
+* the URL is a 301 permanent redirect to `https://mail.google.com/mail/`
