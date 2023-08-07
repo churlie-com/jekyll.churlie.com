@@ -1,6 +1,7 @@
 title: Churlie
 email: peter@forret.com
-description: Your web projects portfolio
+description: Your website portfolio manager
+tagline: Your website portfolio manager
 baseurl: "/"
 url: "https://jekyll.churlie.com"
 twitter_username: pforret
